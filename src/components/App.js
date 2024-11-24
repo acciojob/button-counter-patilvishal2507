@@ -1,13 +1,13 @@
-
 import React from "react";
-import './../styles/App.css';
+import "./../styles/App.css";
+import BtnCounter from "./BtnCounter";
 
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
+      <BtnCounter />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
